@@ -3,7 +3,7 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: David Isaac De la Cruz Castillo
@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username: DvidCastill0
+github_username:  DvidCastill0
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 facebook_username: David.DeLaCruzCastillo
@@ -46,7 +46,7 @@ youtube_username: davidisaacdelacruzcastillo331
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Acerca de mi
+# about_title: Acerca de mi
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ¡Hola!, soy David y actualmente soy estudiante de la Universidad de Guadalajara en la carrera de Licenciatura en Ingeniería en Computación. Siendoa demas egresado de la carrera de Tecnólogo Profesional en Sistemas Informáticos de la Escuela Politécnica de Guadalajara. Ocacionalmente realizo proyectos independientes para mejorar mis habilidades en la programación, asisto a eventos sobre tecnologia para aprender sobre las tendencias y me gusta dar soluciones en software a problemas que se me presentan.
@@ -62,11 +62,10 @@ content:
         link: github.com/DvidCastill0/
         # link_text: Project Website
         additional_links:
-          - title: DvidCastill0/DecodificadorMIPS
+          - title:  DvidCastill0/DecodificadorMIPS
             icon: fab fa-github
             url: github.com/DvidCastill0/DecodificadorMIPS
           - title: Acceso desde servidor alojado
-            icon: fab fa-solid fa-eye
             url: https://dvidcastillo.000webhostapp.com/DecodificadorMIPS/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -88,20 +87,20 @@ content:
         quote: >
           Resolver los problemas relacionados a sistemas informaticos para administrar la calidad de la producción de un producto tan complejo como la fibra de carbono.
         description: | # this will include new lines to allow paragraphs
-          Toda empresa necesita un desarrollador que comprenda los procesos en los cuales existe una rea de oportunidad de mejorar mediante sistemas informaticos, y ZOLTEK no es la excepción, aqui me he permitido desenvolver como desarrollador Full Stack para proyectos en el area de aseguramiento de calidad
-            - Desarrollo en ASP.NET
-            - RESTful API
-            - RDLC
-            - SQL Server
-            - Frontend(HTML, CSS, JavaScript y JQuery)
-            - Backend(C#)
-            - Extracción y análisis de datos.
-            - Digitalizacion de documentos
-            - Firma electronica en documentos.
-          Proyectos:
-            - Creacion de sistema para realizar un llenado de datos filtrados desde bases de datos SQL y archivos Excel con la capacidad de ajuste de parametros, asi como su manejo y exportacion a distintos formatos por medio de RDLC.
-            - Digitalizacion de documento para Reportes de Material no conforme, el cual permite realizar el llenado de datos de forma digital, asi como su firmado y adjuncion de evidencias para su posterior consulta. Ademas permitiendo el envio de correos automatico para cada fase y la impresion de reportes.
-            - Sistema para seguimiento y control de workstations, con correo automatizado e impresion de reportes.
+            Toda empresa necesita un desarrollador que comprenda los procesos en los cuales existe una rea de oportunidad de mejorar mediante sistemas informaticos, y ZOLTEK no es la excepción, aqui me he permitido desenvolver como desarrollador Full Stack para proyectos en el area de aseguramiento de calidad
+              - Desarrollo en ASP.NET
+              - RESTful API
+              - RDLC
+              - SQL Server
+              - Frontend(HTML, CSS, JavaScript y JQuery)
+              - Backend(C#)
+              - Extracción y análisis de datos.
+              - Digitalizacion de documentos
+              - Firma electronica en documentos.
+            Proyectos:
+              - Creacion de sistema para realizar un llenado de datos filtrados desde bases de datos SQL y archivos Excel con la capacidad de ajuste de parametros, asi como su manejo y exportacion a distintos formatos por medio de RDLC.
+              - Digitalizacion de documento para Reportes de Material no conforme, el cual permite realizar el llenado de datos de forma digital, asi como su firmado y adjuncion de evidencias para su posterior consulta. Ademas permitiendo el envio de correos automatico para cada fase y la impresion de reportes.
+              - Sistema para seguimiento y control de workstations, con correo automatizado e impresion de reportes.
 
       - layout: left
         title: Ecoturismo Integrando Equipos S.A. de C.V.
@@ -112,22 +111,22 @@ content:
         quote: >
           Crear una herramienta que permita vivir la experiencia del Ecoturismo a la palma de tu mano.
         description: | # this will include new lines to allow paragraphs
-          En este espacio tuve la oportunidad de desarrollar aun mas mis habilidades como programador de aplicaciones moviles, esta vez desarrollando una herramienta inteligente para realizar viajes de ecoturismo con una aplicación que funcionara como guia turistico, asi como administrar una gran base de datos NoSQL para este fin, los proyectos en el area de Turismo desarollados me reforzaron mis habilidades en:
-            - Desarrollo en Android Studio
-            - Java
-            - Kotlin
-            - Firebase
-            - SQLite
-            -Jetpack
-            - Extracción y análisis de datos.
-            - Compras integradas
-            - AsyncTask.
-            - GoogleMaps API
-            - Geolocation
-            Proyectos:
-            - Creacion de un sistema para la actualizacion continuea de la base de datos de la empresa.
-            - Creacion de una aplicacion que funciona como un guia digital con viajes digitales a un costo accesible, para android.
-  - title: Educacion # Title for the section
+            En este espacio tuve la oportunidad de desarrollar aun mas mis habilidades como programador de aplicaciones moviles, esta vez desarrollando una herramienta inteligente para realizar viajes de ecoturismo con una aplicación que funcionara como guia turistico, asi como administrar una gran base de datos NoSQL para este fin, los proyectos en el area de Turismo desarollados me reforzaron mis habilidades en:
+              - Desarrollo en Android Studio
+              - Java
+              - Kotlin
+              - Firebase
+              - SQLite
+              -Jetpack
+              - Extracción y análisis de datos.
+              - Compras integradas
+              - AsyncTask.
+              - GoogleMaps API
+              - Geolocation
+              Proyectos:
+              - Creacion de un sistema para la actualizacion continuea de la base de datos de la empresa.
+              - Creacion de una aplicacion que funciona como un guia digital con viajes digitales a un costo accesible, para android.
+  - title: Educación # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -162,4 +161,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
