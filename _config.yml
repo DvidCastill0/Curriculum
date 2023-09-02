@@ -65,7 +65,7 @@ content:
           - title:  DvidCastill0/DecodificadorMIPS
             icon: fab fa-github
             url: github.com/DvidCastill0/DecodificadorMIPS
-          - title: Acceso desde servidor alojado
+          - title2: Acceso desde servidor alojado
             icon: fa-solid fa-eye
             url: https://dvidcastillo.000webhostapp.com/DecodificadorMIPS/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
