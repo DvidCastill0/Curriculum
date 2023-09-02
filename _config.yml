@@ -46,7 +46,7 @@ youtube_username: davidisaacdelacruzcastillo331
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: Acerca de mi
+about_title: Acerca de mi
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ¡Hola!, soy David y actualmente soy estudiante de la Universidad de Guadalajara en la carrera de Licenciatura en Ingeniería en Computación. Siendoa demas egresado de la carrera de Tecnólogo Profesional en Sistemas Informáticos de la Escuela Politécnica de Guadalajara. Ocacionalmente realizo proyectos independientes para mejorar mis habilidades en la programación, asisto a eventos sobre tecnologia para aprender sobre las tendencias y me gusta dar soluciones en software a problemas que se me presentan.
@@ -170,7 +170,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Referencias bajo petición
 
 # Build settings
 remote_theme: sproogen/resume-theme
