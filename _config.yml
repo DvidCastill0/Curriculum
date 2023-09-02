@@ -9,7 +9,7 @@ version: 2
 name: David Isaac De la Cruz Castillo
 title: Desarrollador de aplicaciones y soluciones de Software.
 email: dviddlccastillo@gmail.com
-website: github.com/DvidCastill0/DvidCastill0.github.io
+website: github.com/DvidCastill0
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -64,9 +64,9 @@ content:
         additional_links:
           - title:  DvidCastill0/DecodificadorMIPS
             icon: fab fa-github
-            url: github.com/DvidCastill0/DecodificadorMIPS
+            url: dvidcastillo.000webhostapp.com/DecodificadorMIPS/
           - title: Acceso desde servidor alojado
-            url: https://dvidcastillo.000webhostapp.com/DecodificadorMIPS/
+            url: dvidcastillo.000webhostapp.com/DecodificadorMIPS/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -94,13 +94,32 @@ content:
               - SQL Server
               - Frontend(HTML, CSS, JavaScript y JQuery)
               - Backend(C#)
-              - Extracción y análisis de datos.
+              - Extracción y análisis de datos
               - Digitalizacion de documentos
-              - Firma electronica en documentos.
+              - Firma electronica en documentos
             Proyectos:
               - Creacion de sistema para realizar un llenado de datos filtrados desde bases de datos SQL y archivos Excel con la capacidad de ajuste de parametros, asi como su manejo y exportacion a distintos formatos por medio de RDLC.
               - Digitalizacion de documento para Reportes de Material no conforme, el cual permite realizar el llenado de datos de forma digital, asi como su firmado y adjuncion de evidencias para su posterior consulta. Ademas permitiendo el envio de correos automatico para cada fase y la impresion de reportes.
               - Sistema para seguimiento y control de workstations, con correo automatizado e impresion de reportes.
+
+      - layout: left
+        title: CGIPyV Universidad de Guadalajara
+        link: cgipv.udg.mx/
+        # link_text: boringcompany.com
+        sub_title: Prestador externo de servicios informaticos (Desarrollador)
+        caption: Agosto 2023 - Actualidad
+        quote: >
+          Dar soluciones informaticas practicas a los problemas presentados en el area de la investigación educativa.
+        description: | # this will include new lines to allow paragraphs
+            En el area de la investigación y la educación la informatica se vuelve aun mas crucial, puesto que son necesarios los sistemas para que alumnos, docentes e investigadores puedan subir su información y trabajar. En este rubro pude desarrollarme aun mas en mis habilidades como programador web utilizando principalmente PHP para esta tarea.
+              - Desarrollo en tecnologias web (PHP, Javascript, HTML, CSS)
+              - AJAX, JQuery, Datatables
+              - MySQL, PHPMyAdmin
+              - Extracción y análisis de datos
+              - Digitalizacion de documentos
+            Proyectos:
+              - Creacion de sistema para recabar datos de los investigadores del sistema nacional (SNI).
+              - Creación de sistema de inventario de equipos para la Coordinación General de Investigaciones Postgrado y Vinculación.
 
       - layout: left
         title: Ecoturismo Integrando Equipos S.A. de C.V.
