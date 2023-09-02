@@ -53,26 +53,28 @@ about_content: | # this will include new lines to allow paragraphs
 
   Mi principal habilidad actualmente es: <mark>ASP</mark>, <mark>PHP</mark>   and <mark>Java</mark>
 
-#content:
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
+content:
+  - title: Proyectos # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Decodificador Ensamblador para MIPS en Verilog
+        link: github.com/DvidCastill0/
+        # link_text: Project Website
+        additional_links:
+          - title:  DvidCastill0/DecodificadorMIPS
+            icon: fab fa-github
+            url: github.com/DvidCastill0/DecodificadorMIPS
+          - title: Acceso desde servidor alojado
+            url: https://dvidcastillo.000webhostapp.com/DecodificadorMIPS/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-#
+        quote: >
+          Este es uno de los mejores proyectos para entender como funciona el lenguaje maquina.
+        description: | # this will include new lines to allow paragraphs
+          Comence este proyecto como un aficionado para saber como lee la maquina 1s y 0s a partir del lenguaje ensamblador, el cual alavez me sirvio para poder meter instrucciones simples en una simulación de un procesador realizada en Verilog, esto a su vez fue una introducción para mi en el mundo de la arquitectura de computadoras, y vi conceptos basicos que necesita un editor de texto para señalar errores entre otras cosas, me hizo sentir muy orgulloso y se los comparto.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -136,7 +138,6 @@ about_content: | # this will include new lines to allow paragraphs
           La Universidad de Guadalajara (UdeG)​ es una institución pública de educación media-superior y superior que tiene su sede en la Zona Metropolitana de Guadalajara. Cronológicamente, de acuerdo a su fundación, es la segunda Universidad más antigua de México, la séptima de América del Norte y la decimocuarta de América Latina.
         description: | # this will include new lines to allow paragraphs
           Durante mis estudios en la universidad desarrolle la mayoria de mis conocimientos en programación, bases de datos, ciberseguridad, administración de redes y servidores y arquitectura de servidores, entusiasmandome por todo, decidi comenzar a enfocarme en el area de desarollo, la cual me encanta.
-
   - title: Un poco mas acerca de mi
     layout: text
     content: | # this will include new lines to allow paragraphs
