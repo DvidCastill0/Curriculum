@@ -3,13 +3,13 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: David Isaac De la Cruz Castillo
 title: Desarrollador de aplicaciones y soluciones de Software.
 email: dviddlccastillo@gmail.com
-website: https://github.com/DvidCastill0/DvidCastill0.github.io
+website: github.com/DvidCastill0/DvidCastill0.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -46,7 +46,7 @@ youtube_username: davidisaacdelacruzcastillo331
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Acerca de mi
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ¡Hola!, soy David y actualmente soy estudiante de la Universidad de Guadalajara en la carrera de Licenciatura en Ingeniería en Computación. Siendoa demas egresado de la carrera de Tecnólogo Profesional en Sistemas Informáticos de la Escuela Politécnica de Guadalajara. Ocacionalmente realizo proyectos independientes para mejorar mis habilidades en la programación, asisto a eventos sobre tecnologia para aprender sobre las tendencias y me gusta dar soluciones en software a problemas que se me presentan.
@@ -66,6 +66,7 @@ content:
             icon: fab fa-github
             url: github.com/DvidCastill0/DecodificadorMIPS
           - title: Acceso desde servidor alojado
+            icon: fa-solid fa-eye
             url: https://dvidcastillo.000webhostapp.com/DecodificadorMIPS/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
@@ -75,7 +76,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Comence este proyecto como un aficionado para saber como lee la maquina 1s y 0s a partir del lenguaje ensamblador, el cual alavez me sirvio para poder meter instrucciones simples en una simulación de un procesador realizada en Verilog, esto a su vez fue una introducción para mi en el mundo de la arquitectura de computadoras, y vi conceptos basicos que necesita un editor de texto para señalar errores entre otras cosas, me hizo sentir muy orgulloso y se los comparto.
 
-  - title: Experience # Title for the section
+  - title: Experiencia # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -102,32 +103,31 @@ content:
               - Digitalizacion de documento para Reportes de Material no conforme, el cual permite realizar el llenado de datos de forma digital, asi como su firmado y adjuncion de evidencias para su posterior consulta. Ademas permitiendo el envio de correos automatico para cada fase y la impresion de reportes.
               - Sistema para seguimiento y control de workstations, con correo automatizado e impresion de reportes.
 
-        content:
-          - layout: left
-            title: Ecoturismo Integrando Equipos S.A. de C.V.
-            link: ecotours.com.mx
-            # link_text: boringcompany.com
-            sub_title: Desarrollador full stack
-            caption: Enero 2020 - Febrero 2022
-            quote: >
-              Crear una herramienta que permita vivir la experiencia del Ecoturismo a la palma de tu mano.
-            description: | # this will include new lines to allow paragraphs
-                En este espacio tuve la oportunidad de desarrollar aun mas mis habilidades como programador de aplicaciones moviles, esta vez desarrollando una herramienta inteligente para realizar viajes de ecoturismo con una aplicación que funcionara como guia turistico, asi como administrar una gran base de datos NoSQL para este fin, los proyectos en el area de Turismo desarollados me reforzaron mis habilidades en:
-                  - Desarrollo en Android Studio
-                  - Java
-                  - Kotlin
-                  - Firebase
-                  - SQLite
-                  -Jetpack
-                  - Extracción y análisis de datos.
-                  - Compras integradas
-                  - AsyncTask.
-                  - GoogleMaps API
-                  - Geolocation
-                  Proyectos:
-                  - Creacion de un sistema para la actualizacion continuea de la base de datos de la empresa.
-                  - Creacion de una aplicacion que funciona como un guia digital con viajes digitales a un costo accesible, para android.
-  - title: Education # Title for the section
+      - layout: left
+        title: Ecoturismo Integrando Equipos S.A. de C.V.
+        link: ecotours.com.mx
+        # link_text: boringcompany.com
+        sub_title: Desarrollador full stack
+        caption: Enero 2020 - Febrero 2022
+        quote: >
+          Crear una herramienta que permita vivir la experiencia del Ecoturismo a la palma de tu mano.
+        description: | # this will include new lines to allow paragraphs
+            En este espacio tuve la oportunidad de desarrollar aun mas mis habilidades como programador de aplicaciones moviles, esta vez desarrollando una herramienta inteligente para realizar viajes de ecoturismo con una aplicación que funcionara como guia turistico, asi como administrar una gran base de datos NoSQL para este fin, los proyectos en el area de Turismo desarollados me reforzaron mis habilidades en:
+              - Desarrollo en Android Studio
+              - Java
+              - Kotlin
+              - Firebase
+              - SQLite
+              -Jetpack
+              - Extracción y análisis de datos.
+              - Compras integradas
+              - AsyncTask.
+              - GoogleMaps API
+              - Geolocation
+              Proyectos:
+              - Creacion de un sistema para la actualizacion continuea de la base de datos de la empresa.
+              - Creacion de una aplicacion que funciona como un guia digital con viajes digitales a un costo accesible, para android.
+  - title: Educación # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -147,8 +147,8 @@ content:
       - Creación de contenido para youtube.
       - Historia de México y el mundo
 
-      Miren esta imagen de unod e mis videojuegos favoritos con una genial historia que nos hace soñar con que no estamos solos en este universo:
-      ![Trees](/images/Halo.jpg "Humanidad")
+      Miren esta imagen de uno de mis videojuegos favoritos con una genial historia que nos hace soñar con que no estamos solos en este universo:
+      ![Humanidad](/images/halo.jpg "Humanidad")
 
 # Footer
 footer_show_references: true
